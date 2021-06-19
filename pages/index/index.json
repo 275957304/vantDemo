@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "vant组件使用",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-slider": "@vant/weapp/slider/index"
+  }
+}
