@@ -26,5 +26,7 @@
 
   <van-slider style="width:100%" value="50" bind:change="onChange" />
 
-
+  <view style="margin-top:20rpx">
+    <van-count-down time="{{ time }}" />
+  </view>
 </view>

@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    time: 30 * 60 * 60 * 1000,
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -17,7 +18,7 @@ Page({
       title: `当前值：${event.detail}`,
     });
   },
-  // 事件处理函数
+  // 事件处理函数 
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs'
